@@ -1,0 +1,12 @@
+[2022-09-19 13:23:01,210][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-19 13:23:01,211][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 179, in my_app
+    state[0] = torch.bernoulli(pc)
+RuntimeError: expand(torch.FloatTensor{[2]}, size=[]): the number of sizes provided (0) must be greater or equal to the number of dimensions in the tensor (1)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-19 13:23:06,712][__main__][INFO] - {'check': 12528}
+[2022-09-19 13:23:06,712][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 0.00%
+[2022-09-19 13:23:06,712][__main__][INFO] - #2 (ancestral + reject) : 38.51% of the total samples were rejected
+[2022-09-19 13:23:06,716][__main__][INFO] - {'pc': tensor([0.6897, 0.3103])}

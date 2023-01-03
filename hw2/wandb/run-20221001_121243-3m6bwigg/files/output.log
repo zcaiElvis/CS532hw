@@ -1,0 +1,156 @@
+Running deterministic tests
+Test 1 starting
+Evaluation scheme: desugar
+Test 1 passed
+Test 2 starting
+Evaluation scheme: desugar
+Test 2 passed
+Test 3 starting
+Evaluation scheme: desugar
+Test 3 passed
+Test 4 starting
+Evaluation scheme: desugar
+Test 4 passed
+Test 5 starting
+Evaluation scheme: desugar
+Test 5 passed
+Test 6 starting
+Evaluation scheme: desugar
+Test 6 passed
+Test 7 starting
+Evaluation scheme: desugar
+Test 7 passed
+Test 8 starting
+Evaluation scheme: desugar
+Test 8 passed
+Test 9 starting
+Evaluation scheme: desugar
+Test 9 passed
+Test 10 starting
+Evaluation scheme: desugar
+Test 10 passed
+Test 11 starting
+Evaluation scheme: desugar
+Test 11 passed
+Test 12 starting
+Evaluation scheme: desugar
+Test 12 passed
+Test 13 starting
+Evaluation scheme: desugar
+Test 13 passed
+Test 14 starting
+Evaluation scheme: desugar
+Test 14 passed
+Test 15 starting
+Evaluation scheme: desugar
+Test 15 passed
+Test 16 starting
+Evaluation scheme: desugar
+Test 16 passed
+Test 17 starting
+Evaluation scheme: desugar
+Test 17 passed
+Test 18 starting
+Evaluation scheme: desugar
+Test 18 passed
+Test 19 starting
+Evaluation scheme: desugar
+Test 19 passed
+Test 20 starting
+Evaluation scheme: desugar
+Test 20 passed
+Test 21 starting
+Evaluation scheme: desugar
+Test 21 passed
+All deterministic tests passed
+Running probabilistic tests
+Test 1 starting
+Evaluation scheme: desugar
+Truth: ('normal', 5, 1.4142136)
+p value: 0.298844394637365
+Test 1 passed
+Test 2 starting
+Evaluation scheme: desugar
+Truth: ('beta', 2.0, 5.0)
+p value: 0.01686945439610665
+Test 2 passed
+Test 3 starting
+Evaluation scheme: desugar
+Truth: ('exponential', 0.0, 5.0)
+p value: 0.016511881396151284
+Test 3 passed
+Test 4 starting
+Evaluation scheme: desugar
+Truth: ('normal', 5.3, 3.2)
+p value: 0.25035404417007523
+Test 4 passed
+Test 5 starting
+Evaluation scheme: desugar
+Truth: ('normalmix', 0.1, -1, 0.3, 0.9, 1, 0.3)
+p value: 0.6869164069707573
+Test 5 passed
+Test 6 starting
+Evaluation scheme: desugar
+Truth: ('normal', 0, 1.44)
+p value: 0.5523147105723087
+Test 6 passed
+Test 7 starting
+Evaluation scheme: desugar
+Truth: ('normal', 0, 1.4142136)
+p value: 0.6259066515719839
+Test 7 passed
+Test 8 starting
+Evaluation scheme: desugar
+Truth: ('normal', 0, 1)
+p value: 0.6345135286450561
+Test 8 passed
+All probabilistic tests passed
+Running: HW2: 1
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: desugar
+Samples shape: torch.Size([1000])
+First sample: tensor(3.3880)
+Sample mean: tensor(0.9801)
+Sample standard deviation: tensor(2.1434)
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw2/evaluation_based_sampling.py:39: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  sigma+= tc.tensor(logp)
+Time taken [s]: 0.7313399314880371
+Number of samples: 1000
+Finished program 1
+Running: HW2: 2
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: desugar
+Samples shape: torch.Size([1000, 2])
+First sample: tensor([ 18.4344, -12.9393])
+Sample mean: tensor([-0.0192,  0.4036])
+Sample standard deviation: tensor([ 9.9754, 10.1926])
+Time taken [s]: 1.3554158210754395
+Number of samples: 1000
+Finished program 2
+Running: HW2: 3
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: desugar
+Samples shape: torch.Size([1000, 17])
+First sample: tensor([2., 2., 2., 2., 1., 0., 1., 0., 2., 2., 0., 0., 1., 1., 0., 1., 2.])
+Sample mean: tensor([1.0470, 1.4320, 1.4720, 1.4690, 1.4710, 1.4480, 1.4860, 1.4660, 1.4640,
+        1.4670, 1.4870, 1.4770, 1.4750, 1.4750, 1.4490, 1.5160, 1.4480])
+Sample standard deviation: tensor([0.8182, 0.7279, 0.7548, 0.7494, 0.7278, 0.7693, 0.7310, 0.7664, 0.7545,
+        0.7730, 0.7432, 0.7510, 0.7681, 0.7389, 0.7849, 0.7171, 0.7628])
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw2/run.py", line 126, in run_all
+    run_programs(programs, mode=mode, prog_set='HW2', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw2/run.py", line 93, in run_programs
+    if wandb_run: wandb_plots(samples, i)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw2/utils.py", line 44, in wandb_plots
+    wandb_log['Program 3; heatmap'] = wandb.plots.HeatMap(xlabels, ylabels, matrix.T, show_text=True)
+  File "/Users/elvis/opt/anaconda3/lib/python3.9/site-packages/wandb/plots/heatmap.py", line 38, in heatmap
+    scikit = util.get_module(
+  File "/Users/elvis/opt/anaconda3/lib/python3.9/site-packages/wandb/util.py", line 317, in get_module
+    raise wandb.Error(required)
+wandb.errors.Error: roc requires the scikit library, install with `pip install scikit-learn`
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,26 @@
+Best-fitting parameters: [-0.51333333  2.15142857]
+Parameter covariance matrix:
+ [[ 0.22686031 -0.05235238]
+ [-0.05235238  0.01495782]]
+Elbo loss: 191.68383622169495
+Elbo loss: 15.05501902103424
+Elbo loss: 12.023920774459839
+Elbo loss: 14.410175204277039
+Elbo loss: 14.199304103851318
+Elbo loss: 14.308416962623596
+Elbo loss: 14.2584707736969
+Elbo loss: 13.98837035894394
+Elbo loss: 14.529389262199402
+Elbo loss: 14.275655627250671
+CPU times: user 25.1 s, sys: 1.2 s, total: 26.3 s
+Wall time: 27.3 s
+AutoNormal.locs.bias -0.4788496
+AutoNormal.scales.bias 0.42165583
+AutoNormal.locs.slope 2.1684086
+AutoNormal.scales.slope 0.11592141
+Covariance matrix:
+ [[ 0.19543316 -0.0025119 ]
+ [-0.0025119   0.01307703]]
+Correlation matrix:
+ [[ 1.         -0.04968764]
+ [-0.04968764  1.        ]]

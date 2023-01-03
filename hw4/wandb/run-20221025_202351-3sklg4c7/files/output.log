@@ -1,0 +1,119 @@
+Running: homework_4: 1
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                           | 428/500 [00:09<00:01, 43.64it/s]
+{'sample2': Normal(loc: 7.230537414550781, scale: 0.9591647982597351)}
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:11<00:00, 42.92it/s]
+Samples shape: torch.Size([1000])
+First sample: tensor(6.6704)
+Sample mean: tensor(7.2409)
+Sample standard deviation: tensor(0.9508)
+ 12%|████████████████████████                                                                                                                                                                          | 62/500 [00:03<00:22, 19.73it/s]
+Time taken [s]: 12.523797035217285
+Number of samples: 1000
+Finished program 1
+Running: homework_4: 2
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+
+
+
+
+
+
+
+
+
+
+
+ 98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 488/500 [00:25<00:00, 19.44it/s]
+{'sample1': Normal(loc: 2.1708061695098877, scale: 0.09951172769069672), 'sample2': Normal(loc: -0.3829401433467865, scale: 0.41908442974090576)}
+['vector', 'sample1', 'sample2', ['+', ['*', 'sample1', 10.0], 'sample2']]
+Samples shape: torch.Size([1000, 3])
+First sample: tensor([ 2.1782,  0.5176, 22.2996])
+Sample mean: tensor([ 2.1751, -0.3736, 21.3774])
+Sample standard deviation: tensor([0.0998, 0.4252, 1.0996])
+Sample Covariance [[0.00996179 0.00160559]
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:26<00:00, 19.12it/s]
+Time taken [s]: 26.633059978485107
+Number of samples: 1000
+Finished program 2
+Running: homework_4: 3
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 497/500 [01:56<00:00,  4.38it/s]
+{'sample6': Dirichlet(concentration: torch.Size([3])), 'sample3': Gamma(concentration: 1.884546160697937, rate: 0.6481085419654846), 'sample1': Gamma(concentration: 1.6076699495315552, rate: 0.7058386206626892), 'sample2': Normal(loc: 0.4383564889431, scale: 1.213089942932129), 'sample4': Normal(loc: 0.8436838388442993, scale: 1.3151605129241943), 'sample19': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample0': Normal(loc: 0.5460277199745178, scale: 0.9880146384239197), 'sample5': Gamma(concentration: 1.6451518535614014, rate: 0.4904056787490845), 'sample15': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample7': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample9': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample13': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample11': Categorical(probs: torch.Size([3]), logits: torch.Size([3])), 'sample17': Categorical(probs: torch.Size([3]), logits: torch.Size([3]))}
+['=', 'sample7', 'sample9']
+Samples shape: torch.Size([1000])
+First sample: tensor(1.)
+Sample mean: tensor(0.3400)
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [01:57<00:00,  4.25it/s]
+Time taken [s]: 118.50283098220825
+Number of samples: 1000
+Finished program 3

@@ -1,0 +1,17 @@
+wandb_run: false
+base_dir: ../CPSC532W_hw4
+daphne_dir: ../daphne
+deterministic_tests: []
+probabilistic_tests:
+- 1
+- 2
+- 3
+- 4
+- 5
+HW4_programs:
+- 1
+- 2
+- 5
+compile: false
+num_samples: 1000.0
+method: IS

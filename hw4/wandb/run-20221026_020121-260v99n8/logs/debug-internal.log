@@ -1,0 +1,152 @@
+2022-10-26 02:01:21,310 INFO    StreamThr :14859 [internal.py:wandb_internal():88] W&B internal server running at pid: 14859, started at: 2022-10-26 02:01:21.306987
+2022-10-26 02:01:21,311 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: status
+2022-10-26 02:01:21,313 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: status
+2022-10-26 02:01:21,313 DEBUG   SenderThread:14859 [sender.py:send():303] send: header
+2022-10-26 02:01:21,313 INFO    WriterThread:14859 [datastore.py:open_for_write():75] open: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/run-260v99n8.wandb
+2022-10-26 02:01:21,322 DEBUG   SenderThread:14859 [sender.py:send():303] send: run
+2022-10-26 02:01:22,094 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: check_version
+2022-10-26 02:01:22,096 INFO    SenderThread:14859 [dir_watcher.py:__init__():216] watching files in: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files
+2022-10-26 02:01:22,096 INFO    SenderThread:14859 [sender.py:_start_run_threads():928] run started: 260v99n8 with start time 1666774881.293752
+2022-10-26 02:01:22,096 DEBUG   SenderThread:14859 [sender.py:send():303] send: summary
+2022-10-26 02:01:22,096 INFO    SenderThread:14859 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 02:01:22,096 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: check_version
+2022-10-26 02:01:22,271 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: run_start
+2022-10-26 02:01:22,272 DEBUG   HandlerThread:14859 [meta.py:__init__():34] meta init
+2022-10-26 02:01:22,274 DEBUG   HandlerThread:14859 [meta.py:__init__():49] meta init done
+2022-10-26 02:01:22,274 DEBUG   HandlerThread:14859 [meta.py:probe():215] probe
+2022-10-26 02:01:22,282 DEBUG   HandlerThread:14859 [meta.py:_setup_git():205] setup git
+2022-10-26 02:01:22,297 DEBUG   HandlerThread:14859 [meta.py:_setup_git():212] setup git done
+2022-10-26 02:01:22,297 DEBUG   HandlerThread:14859 [meta.py:_save_pip():53] save pip
+2022-10-26 02:01:22,298 DEBUG   HandlerThread:14859 [meta.py:_save_pip():67] save pip done
+2022-10-26 02:01:22,298 DEBUG   HandlerThread:14859 [meta.py:probe():253] probe done
+2022-10-26 02:01:22,300 DEBUG   SenderThread:14859 [sender.py:send():303] send: files
+2022-10-26 02:01:22,300 INFO    SenderThread:14859 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-26 02:01:22,303 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 02:01:22,304 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 02:01:22,427 DEBUG   SenderThread:14859 [sender.py:send():303] send: telemetry
+2022-10-26 02:01:22,798 INFO    Thread-17 :14859 [upload_job.py:push():143] Uploaded file /var/folders/8n/816m6fhn3tj54_s_p9r0t3hw0000gn/T/tmpylv3i313wandb/3tb72eu1-wandb-metadata.json
+2022-10-26 02:01:22,963 DEBUG   SenderThread:14859 [sender.py:send():303] send: telemetry
+2022-10-26 02:01:23,102 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-summary.json
+2022-10-26 02:01:23,102 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-metadata.json
+2022-10-26 02:01:23,102 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:23,102 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/requirements.txt
+2022-10-26 02:01:25,112 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:27,121 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:29,128 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:31,137 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:37,004 DEBUG   SenderThread:14859 [sender.py:send():303] send: telemetry
+2022-10-26 02:01:37,095 DEBUG   SenderThread:14859 [sender.py:send():303] send: exit
+2022-10-26 02:01:37,096 INFO    SenderThread:14859 [sender.py:send_exit():442] handling exit code: 1
+2022-10-26 02:01:37,096 INFO    SenderThread:14859 [sender.py:send_exit():444] handling runtime: 14
+2022-10-26 02:01:37,098 INFO    SenderThread:14859 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 02:01:37,098 INFO    SenderThread:14859 [sender.py:send_exit():450] send defer
+2022-10-26 02:01:37,099 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,099 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-26 02:01:37,099 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,099 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-26 02:01:37,099 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 1
+2022-10-26 02:01:37,102 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,103 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-26 02:01:37,160 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-summary.json
+2022-10-26 02:01:37,835 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,835 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-26 02:01:37,835 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 2
+2022-10-26 02:01:37,835 DEBUG   SenderThread:14859 [sender.py:send():303] send: stats
+2022-10-26 02:01:37,835 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,835 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-26 02:01:37,835 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,835 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-26 02:01:37,835 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 3
+2022-10-26 02:01:37,835 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,836 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-26 02:01:37,836 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 4
+2022-10-26 02:01:37,836 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,836 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-26 02:01:37,836 DEBUG   SenderThread:14859 [sender.py:send():303] send: summary
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 02:01:37,836 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 5
+2022-10-26 02:01:37,836 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,836 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-26 02:01:37,836 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,836 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-26 02:01:37,986 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 6
+2022-10-26 02:01:37,986 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:37,986 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-26 02:01:37,986 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:37,986 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-26 02:01:38,099 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 02:01:38,161 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-summary.json
+2022-10-26 02:01:38,161 INFO    Thread-13 :14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/config.yaml
+2022-10-26 02:01:38,593 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 7
+2022-10-26 02:01:38,593 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 02:01:38,594 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:38,594 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-26 02:01:38,594 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:38,594 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-26 02:01:38,594 INFO    SenderThread:14859 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-26 02:01:39,105 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 02:01:39,177 INFO    SenderThread:14859 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:39,178 INFO    SenderThread:14859 [dir_watcher.py:finish():392] scan: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files
+2022-10-26 02:01:39,179 INFO    SenderThread:14859 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/requirements.txt requirements.txt
+2022-10-26 02:01:39,179 INFO    SenderThread:14859 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log output.log
+2022-10-26 02:01:39,180 INFO    SenderThread:14859 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/config.yaml config.yaml
+2022-10-26 02:01:39,182 INFO    SenderThread:14859 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-summary.json wandb-summary.json
+2022-10-26 02:01:39,182 INFO    SenderThread:14859 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-metadata.json wandb-metadata.json
+2022-10-26 02:01:39,184 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 8
+2022-10-26 02:01:39,185 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 02:01:39,188 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:39,188 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-26 02:01:39,189 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:39,189 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-26 02:01:39,189 INFO    SenderThread:14859 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-26 02:01:39,691 INFO    Thread-18 :14859 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/requirements.txt
+2022-10-26 02:01:39,693 INFO    Thread-20 :14859 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/config.yaml
+2022-10-26 02:01:39,696 INFO    Thread-21 :14859 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/wandb-summary.json
+2022-10-26 02:01:39,738 INFO    Thread-19 :14859 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/files/output.log
+2022-10-26 02:01:39,943 INFO    Thread-12 (_thread_body):14859 [sender.py:transition_state():463] send defer: 9
+2022-10-26 02:01:39,943 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:39,943 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-26 02:01:39,943 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:39,943 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-26 02:01:39,943 INFO    SenderThread:14859 [file_pusher.py:join():173] waiting for file pusher
+2022-10-26 02:01:39,943 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 10
+2022-10-26 02:01:39,944 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:39,944 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-26 02:01:39,944 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:39,944 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-26 02:01:40,109 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 02:01:40,174 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 11
+2022-10-26 02:01:40,174 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 02:01:40,174 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:40,174 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-26 02:01:40,174 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:40,175 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-26 02:01:40,175 INFO    SenderThread:14859 [sender.py:transition_state():463] send defer: 12
+2022-10-26 02:01:40,175 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 02:01:40,175 INFO    HandlerThread:14859 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-26 02:01:40,175 DEBUG   SenderThread:14859 [sender.py:send():303] send: final
+2022-10-26 02:01:40,175 DEBUG   SenderThread:14859 [sender.py:send():303] send: footer
+2022-10-26 02:01:40,175 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: defer
+2022-10-26 02:01:40,175 INFO    SenderThread:14859 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-26 02:01:40,176 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 02:01:40,177 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 02:01:40,177 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 02:01:40,177 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: server_info
+2022-10-26 02:01:40,177 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-26 02:01:40,177 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-26 02:01:40,178 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 02:01:40,178 DEBUG   SenderThread:14859 [sender.py:send_request():317] send_request: server_info
+2022-10-26 02:01:40,553 INFO    MainThread:14859 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-26 02:01:40,554 INFO    MainThread:14859 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-26 02:01:40,554 INFO    MainThread:14859 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-26 02:01:40,554 DEBUG   HandlerThread:14859 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-26 02:01:40,555 INFO    HandlerThread:14859 [handler.py:finish():814] shutting down handler
+2022-10-26 02:01:41,181 INFO    WriterThread:14859 [datastore.py:close():279] close: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_020121-260v99n8/run-260v99n8.wandb
+2022-10-26 02:01:41,556 INFO    SenderThread:14859 [sender.py:finish():1331] shutting down sender
+2022-10-26 02:01:41,558 INFO    SenderThread:14859 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-26 02:01:41,559 INFO    SenderThread:14859 [file_pusher.py:join():173] waiting for file pusher
+2022-10-26 02:01:42,451 INFO    MainThread:14859 [internal.py:handle_exit():78] Internal process exited

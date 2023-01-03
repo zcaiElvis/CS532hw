@@ -1,0 +1,12 @@
+[2022-09-18 19:57:39,982][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:57:39,983][__main__][INFO] - {'test': tensor([0.5000])}
+[2022-09-18 19:57:39,985][__main__][INFO] - {'check': tensor(1.)}
+[2022-09-18 19:57:39,986][__main__][INFO] - {'check': tensor(0.)}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 117, in my_app
+    W_true = p_W_given_S_R(torch.tensor(1), S, R)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 42, in p_W_given_S_R
+    return probs[w.detach(), s.detach(), r.detach()]
+IndexError: tensors used as indices must be long, byte or bool tensors
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

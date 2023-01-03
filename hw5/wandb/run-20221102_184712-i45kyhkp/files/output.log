@@ -1,0 +1,138 @@
+Running deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+Test 13 starting
+Test 13 passed
+Test 14 starting
+Test 14 passed
+Test 15 starting
+Test 15 passed
+Test 16 starting
+Test 16 passed
+Test 17 starting
+Test 17 passed
+Test 18 starting
+Test 18 passed
+Test 19 starting
+Test 19 passed
+Test 20 starting
+Test 20 passed
+Test 21 starting
+Test 21 passed
+All deterministic tests passed
+Running hoppl-deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+All hoppl-deterministic tests passed
+Running probabilistic tests: [1, 2, 3, 4, 5, 6, 7, 8]
+Test 1 starting
+Truth: ('normal', 5, 1.4142136)
+p value: 0.1556384511377129
+Test 1 passed
+Test 2 starting
+Truth: ('beta', 2.0, 5.0)
+p value: 0.5593412683176783
+Test 2 passed
+Test 3 starting
+Truth: ('exponential', 0.0, 5.0)
+p value: 0.9867767704268194
+Test 3 passed
+Test 4 starting
+Truth: ('normal', 5.3, 3.2)
+p value: 0.4940802651079279
+Test 4 passed
+Test 5 starting
+Truth: ('normalmix', 0.1, -1, 0.3, 0.9, 1, 0.3)
+p value: 0.09010875412475738
+Test 5 passed
+Test 6 starting
+Truth: ('normal', 0, 1.44)
+p value: 0.7397694954421288
+Test 6 passed
+Test 7 starting
+Truth: ('normal', 0, 1.4142136)
+p value: 0.6862967583727664
+Test 7 passed
+Test 8 starting
+Truth: ('normal', 0, 1)
+p value: 0.6532554977392413
+Test 8 passed
+All probabilistic tests passed
+Running: homework_5: 1
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([15837])
+First sample: tensor(35.)
+Sample mean: tensor(98.5699)
+Sample standard deviation: tensor(98.0667)
+Time taken [s]: 60.76046800613403
+Number of samples: 15837
+Finished program 1
+Running: homework_5: 2
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([177822])
+First sample: tensor(1.2159)
+Sample mean: tensor(1.0101)
+Sample standard deviation: tensor(2.2395)
+Time taken [s]: 64.25448393821716
+Number of samples: 177822
+Finished program 2
+Running: homework_5: 3
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([28067, 17])
+First sample: tensor([2., 2., 2., 2., 2., 2., 1., 0., 1., 1., 2., 2., 2., 1., 2., 2., 2.])
+Sample mean: tensor([1.4788, 1.4783, 1.4820, 1.4812, 1.4710, 1.4669, 1.4791, 1.4834, 1.4796,
+        1.4804, 1.4818, 1.4792, 1.4793, 1.4766, 1.4748, 1.4160, 0.9986])
+Sample standard deviation: tensor([0.7442, 0.7478, 0.7476, 0.7448, 0.7479, 0.7520, 0.7435, 0.7409, 0.7470,
+        0.7445, 0.7412, 0.7446, 0.7439, 0.7459, 0.7509, 0.7379, 0.8110])
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Visualizing heatmap.
+Time taken [s]: 61.29925513267517
+Number of samples: 28067
+Finished program 3

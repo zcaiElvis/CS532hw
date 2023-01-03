@@ -1,0 +1,13 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.06it/s]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 157, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 104, in run_programs
+    samples[i] = tc.cat((samples[i][0], samples[i][1], samples[i][2], samples[i][3], samples[i][4]), dim=0)
+RuntimeError: Sizes of tensors must match except in dimension 0. Expected size 1 but got size 10 for tensor number 2 in the list.
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

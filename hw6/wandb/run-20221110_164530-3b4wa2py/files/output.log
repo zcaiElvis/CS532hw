@@ -1,0 +1,151 @@
+Running deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+Test 13 starting
+Test 13 passed
+Test 14 starting
+Test 14 passed
+Test 15 starting
+Test 15 passed
+Test 16 starting
+Test 16 passed
+Test 17 starting
+Test 17 passed
+Test 18 starting
+Test 18 passed
+Test 19 starting
+Test 19 passed
+Test 20 starting
+Test 20 passed
+Test 21 starting
+Test 21 passed
+Test 22 starting
+Test 22 passed
+All deterministic tests passed
+Running hoppl-deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+All hoppl-deterministic tests passed
+Running probabilistic tests: [1, 2, 3, 4, 5, 6, 7, 8]
+Test 1 starting
+Test truth: ('normal', 5, 1.4142136)
+Truth: ('normal', 5, 1.4142136)
+p value: 0.6304963855825301
+Test 1 passed
+Test 2 starting
+Test truth: ('beta', 2.0, 5.0)
+Truth: ('beta', 2.0, 5.0)
+p value: 0.06457528658982481
+Test 2 passed
+Test 3 starting
+Test truth: ('exponential', 0.0, 5.0)
+Truth: ('exponential', 0.0, 5.0)
+p value: 0.881067446136698
+Test 3 passed
+Test 4 starting
+Test truth: ('normal', 5.3, 3.2)
+Truth: ('normal', 5.3, 3.2)
+p value: 0.5163206706173498
+Test 4 passed
+Test 5 starting
+Test truth: ('normalmix', 0.1, -1, 0.3, 0.9, 1, 0.3)
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/run.py", line 157, in <module>
+    run_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/run.py", line 141, in run_all
+    run_tests(tests, test_type='probabilistic', base_dir=base_dir, daphne_dir=daphne_dir, compile=compile, verbose=True)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/run.py", line 52, in run_tests
+    samples = get_samples(ast, num_samples)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/sampling.py", line 16, in get_samples
+    samples = get_prior_samples(ast, num_samples, tmax, wandb_name, verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/sampling.py", line 34, in get_prior_samples
+    sample, _ = evaluate(ast, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 135, in evaluate
+    exp = eval(ast, sig, env, verbose)(run_name, output) # NOTE: Must run as function with a continuation
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 34, in __call__
+    return eval(self.body, self.sig, Env(self.params, args, self.env))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 122, in eval
+    return proc(*args)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/primitives.py", line 31, in push_address
+    return continuation(previous_address+'-'+current_addreess)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 34, in __call__
+    return eval(self.body, self.sig, Env(self.params, args, self.env))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 122, in eval
+    return proc(*args)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/primitives.py", line 31, in push_address
+    return continuation(previous_address+'-'+current_addreess)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 34, in __call__
+    return eval(self.body, self.sig, Env(self.params, args, self.env))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 122, in eval
+    return proc(*args)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/primitives.py", line 31, in push_address
+    return continuation(previous_address+'-'+current_addreess)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 34, in __call__
+    return eval(self.body, self.sig, Env(self.params, args, self.env))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 122, in eval
+    return proc(*args)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/primitives.py", line 124, in <lambda>
+    'uniform-continuous': lambda *x: x[-1](tc.distributions.Uniform(*x[1:-1])),
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 34, in __call__
+    return eval(self.body, self.sig, Env(self.params, args, self.env))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw6/evaluator.py", line 13, in __init__
+    self.update(zip(parms, args))
+KeyboardInterrupt

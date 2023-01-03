@@ -1,0 +1,4 @@
+[2022-09-20 13:51:55,768][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-20 13:52:09,992][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 57.78%
+[2022-09-20 13:52:09,992][__main__][INFO] - #2 (ancestral + reject) : 35.48% of the total samples were rejected
+[2022-09-20 13:52:12,705][__main__][INFO] - {'check': tensor(36.0364)}

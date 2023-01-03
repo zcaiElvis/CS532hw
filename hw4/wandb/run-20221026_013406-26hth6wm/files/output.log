@@ -1,0 +1,27 @@
+Running deterministic tests
+Test 21 starting
+Evaluation scheme: graph
+Test 21 passed
+All deterministic tests passed
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 147, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 99, in run_programs
+    samples, _ = VI_sampling(ast_or_graph, num_samples, program=i, tmax=tmax, wandb_name=wandb_name, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 208, in VI_sampling
+    resamples, vx_latent, losses = add_graphs_vi(ast_or_graph.graph_spec, env, sig_dict, num_samples, program)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 76, in add_graphs_vi
+    eval_link = evaluate_vi(graph_links[gs], rho= temp_dict, sigma={'logW':0})
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 52, in evaluate_vi
+    val, sig = evaluate_vi(j[1], l = l, rho=rho, sigma = sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 96, in evaluate_vi
+    revaluate = evaluate_vi(opt(*values), rho = rho, sigma= sigma)[0]
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 43, in evaluate_vi
+    elif j[0] == "observe" or j[0] == "observe*":
+TypeError: 'Normal' object is not subscriptable
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

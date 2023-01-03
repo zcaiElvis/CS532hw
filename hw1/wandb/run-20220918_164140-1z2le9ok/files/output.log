@@ -1,0 +1,14 @@
+[2022-09-18 16:41:43,374][__main__][INFO] - {'value': tensor([[[[0.2000, 0.0000],
+          [0.0050, 0.0450]],
+         [[0.0200, 0.1800],
+          [0.0005, 0.0495]]],
+        [[[0.0900, 0.0000],
+          [0.0360, 0.3240]],
+         [[0.0010, 0.0090],
+          [0.0004, 0.0396]]]])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 88, in my_app
+    p_C_given_W = p[3]
+IndexError: index 3 is out of bounds for dimension 0 with size 2
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

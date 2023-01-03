@@ -1,0 +1,8 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 107, in my_app
+    C = torch.bernoulli(0.5)
+TypeError: bernoulli(): argument 'input' (position 1) must be Tensor, not float
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-18 19:50:35,631][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:50:35,631][__main__][INFO] - {'test': tensor([0.5000])}

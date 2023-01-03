@@ -1,0 +1,34 @@
+Running: homework_5: 1
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([14955])
+First sample: tensor(111.)
+Sample mean: tensor(98.7815)
+Sample standard deviation: tensor(97.2489)
+Time taken [s]: 60.730307817459106
+Number of samples: 14955
+Finished program 1
+Running: homework_5: 2
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([167476])
+First sample: tensor(1.6212)
+Sample mean: tensor(1.0023)
+Sample standard deviation: tensor(2.2364)
+Time taken [s]: 63.940489053726196
+Number of samples: 167476
+Finished program 2
+Running: homework_5: 3
+Maximum samples [log10]: 6.0
+Maximum time [s]: 60
+Samples shape: torch.Size([27293, 17])
+First sample: tensor([2., 2., 2., 2., 1., 0., 2., 0., 2., 2., 2., 2., 1., 0., 1., 0., 0.])
+Sample mean: tensor([1.4832, 1.4778, 1.4800, 1.4730, 1.4817, 1.4789, 1.4893, 1.4880, 1.4866,
+        1.4822, 1.4789, 1.4800, 1.4761, 1.4843, 1.4703, 1.4109, 0.9986])
+Sample standard deviation: tensor([0.7436, 0.7468, 0.7441, 0.7463, 0.7448, 0.7482, 0.7415, 0.7403, 0.7445,
+        0.7431, 0.7485, 0.7439, 0.7483, 0.7403, 0.7517, 0.7384, 0.8119])
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Visualizing heatmap.
+Time taken [s]: 60.669378995895386
+Number of samples: 27293
+Finished program 3

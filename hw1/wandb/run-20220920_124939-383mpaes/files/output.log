@@ -1,0 +1,10 @@
+[2022-09-20 12:49:43,825][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-20 12:49:43,826][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 159, in my_app
+    all = torch.zeros(num_sample)
+NameError: name 'num_sample' is not defined
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-20 12:49:51,998][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 0.00%
+[2022-09-20 12:49:51,999][__main__][INFO] - #2 (ancestral + reject) : 38.51% of the total samples were rejected

@@ -1,0 +1,28 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 139, in run_all
+    run_tests(tests, mode=mode, test_type='deterministic', base_dir=base_dir, daphne_dir=daphne_dir, compile=compile)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 52, in run_tests
+    ret, _ = get_sample(ast_or_graph, mode, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/general_sampling.py", line 24, in get_sample
+    ret, sig, _ = evaluate_graph(ast_or_graph, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/graph_based_sampling.py", line 80, in evaluate_graph
+    result, sigma = Evaluate_g(graph.program, rho = g_dict, sigma=sig_dict)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/graph_based_sampling.py", line 68, in Evaluate_g
+    return evaluate_vi(j, l, rho, sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 96, in evaluate_vi
+    result = evaluate_vi([j[0], *values], l, rho = rho, sigma= sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 96, in evaluate_vi
+    result = evaluate_vi([j[0], *values], l, rho = rho, sigma= sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 96, in evaluate_vi
+    result = evaluate_vi([j[0], *values], l, rho = rho, sigma= sigma)
+  [Previous line repeated 2980 more times]
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 39, in evaluate_vi
+    elif tc.is_tensor(j):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/__init__.py", line 298, in is_tensor
+    return isinstance(obj, torch.Tensor)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Running deterministic tests
+Test 21 starting
+Evaluation scheme: graph

@@ -1,0 +1,16 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-09-19T00:33:15.591670",
+    "startedAt": "2022-09-19T00:33:15.195185",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py",
+    "codePath": "hw1_q3.py",
+    "host": "Elviss-MacBook-Pro.local",
+    "username": "elvis",
+    "executable": "/Users/elvis/opt/anaconda3/envs/cpsc/bin/python"
+}

@@ -1,0 +1,6 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 89, in my_app
+    log.info({"result":p[1][:][:][1].sum(axis=[1,2])})
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

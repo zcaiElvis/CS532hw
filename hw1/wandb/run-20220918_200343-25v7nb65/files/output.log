@@ -1,0 +1,8 @@
+[2022-09-18 20:03:46,179][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 20:03:46,180][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 115, in my_app
+    if torch.equal(torch.tensor([C,S,R,W]).int(), torch.tensor([1,0,0,1])):
+RuntimeError: Expected object of scalar type int but got scalar type long long for argument 'other'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

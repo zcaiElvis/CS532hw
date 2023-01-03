@@ -1,0 +1,1 @@
+{"prob_cloudy_given_wet_grass": {"gibbs": 57.5}, "_timestamp": 1663813865.06406, "_runtime": 20.77670693397522, "_step": 11002, "gibbs": {"iteration": 10999, "c": 1.0, "s": 0.0, "r": 1.0, "w": 1.0, "p(c,s,r,w)": 0.32399997115135193}, "_wandb": {"runtime": 22}}

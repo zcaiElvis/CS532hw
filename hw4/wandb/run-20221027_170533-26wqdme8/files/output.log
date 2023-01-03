@@ -1,0 +1,17 @@
+Running: homework_4: 1
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:11<00:00, 44.94it/s]
+Samples shape: torch.Size([1000])
+First sample: tensor(6.8423)
+Sample mean: tensor(7.2226)
+Sample standard deviation: tensor(0.8561)
+Time taken [s]: 11.786119937896729
+Number of samples: 1000
+Finished program 1

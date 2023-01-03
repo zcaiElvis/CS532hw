@@ -1,0 +1,11 @@
+[2022-09-19 13:58:02,537][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-19 13:58:02,537][__main__][INFO] - {'test': tensor([0.5000])}
+[2022-09-19 13:58:07,880][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 0.00%
+[2022-09-19 13:58:07,880][__main__][INFO] - #2 (ancestral + reject) : 38.51% of the total samples were rejected
+[2022-09-19 13:58:10,455][__main__][INFO] - {'ans': tensor(0.)}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 199, in my_app
+    pcgwg = this
+NameError: name 'this' is not defined
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

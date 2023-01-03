@@ -1,0 +1,35 @@
+[2022-09-18 20:17:12,652][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 20:17:12,653][__main__][INFO] - {'test': tensor([0.5000])}
+[2022-09-18 20:17:12,655][__main__][INFO] - {'check': [1, 0, 1, 1]}
+[2022-09-18 20:17:12,655][__main__][INFO] - {'check': [0, 1, 0, 1]}
+[2022-09-18 20:17:12,656][__main__][INFO] - {'check': [0, 1, 0, 1]}
+[2022-09-18 20:17:12,656][__main__][INFO] - {'check': [1, 0, 1, 1]}
+[2022-09-18 20:17:12,657][__main__][INFO] - {'check': [0, 1, 0, 1]}
+[2022-09-18 20:17:12,657][__main__][INFO] - {'check': [0, 0, 0, 0]}
+[2022-09-18 20:17:12,657][__main__][INFO] - {'check': [1, 0, 1, 1]}
+[2022-09-18 20:17:12,658][__main__][INFO] - {'check': [0, 0, 0, 0]}
+[2022-09-18 20:17:12,658][__main__][INFO] - {'check': [0, 0, 0, 0]}
+[2022-09-18 20:17:12,659][__main__][INFO] - {'check': [0, 0, 0, 0]}
+[2022-09-18 20:17:12,659][__main__][INFO] - {'check': 0}
+[2022-09-18 20:17:12,659][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 0.00%
+[2022-09-18 20:17:12,659][__main__][INFO] - #2 (ancestral + reject) : 0.00% of the total samples were rejected
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 189, in <module>
+    my_app()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 170, in my_app
+    while i < num_samples:
+KeyboardInterrupt

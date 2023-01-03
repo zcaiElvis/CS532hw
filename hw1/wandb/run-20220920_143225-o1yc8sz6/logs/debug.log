@@ -1,0 +1,93 @@
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Configure stats pid to 21519
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/.config/wandb/settings
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/settings
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-20 14:32:25,253 INFO    MainThread:21519 [wandb_init.py:_log_setup():461] Logging user logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143225-o1yc8sz6/logs/debug.log
+2022-09-20 14:32:25,254 INFO    MainThread:21519 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143225-o1yc8sz6/logs/debug-internal.log
+2022-09-20 14:32:25,254 INFO    MainThread:21519 [wandb_init.py:init():495] calling init triggers
+2022-09-20 14:32:25,254 INFO    MainThread:21519 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-20 14:32:25,254 INFO    MainThread:21519 [wandb_init.py:init():548] starting backend
+2022-09-20 14:32:25,254 INFO    MainThread:21519 [wandb_init.py:init():552] setting up manager
+2022-09-20 14:32:25,265 ERROR   MainThread:21519 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 553, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 161, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 140, in send
+    self.send_server_request(server_req)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 84, in send_server_request
+    self._send_message(msg)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 81, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 61, in _sendall_with_error_handle
+    sent = self._sock.send(data[total_sent:])
+BrokenPipeError: [Errno 32] Broken pipe
+2022-09-20 14:33:04,829 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Configure stats pid to 21519
+2022-09-20 14:33:04,829 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/.config/wandb/settings
+2022-09-20 14:33:04,829 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/settings
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:_log_setup():461] Logging user logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143304-27soj3kf/logs/debug.log
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143304-27soj3kf/logs/debug-internal.log
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:init():495] calling init triggers
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:init():548] starting backend
+2022-09-20 14:33:04,830 INFO    MainThread:21519 [wandb_init.py:init():552] setting up manager
+2022-09-20 14:33:04,844 ERROR   MainThread:21519 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 553, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 161, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 140, in send
+    self.send_server_request(server_req)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 84, in send_server_request
+    self._send_message(msg)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 81, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 61, in _sendall_with_error_handle
+    sent = self._sock.send(data[total_sent:])
+BrokenPipeError: [Errno 32] Broken pipe
+2022-09-20 14:37:49,895 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Configure stats pid to 21519
+2022-09-20 14:37:49,896 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/.config/wandb/settings
+2022-09-20 14:37:49,896 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/settings
+2022-09-20 14:37:49,896 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:_log_setup():461] Logging user logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143749-j10a0l1e/logs/debug.log
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/elvis/Desktop/School/2022/cpsc_536/hw1/wandb/run-20220920_143749-j10a0l1e/logs/debug-internal.log
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:init():495] calling init triggers
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:init():548] starting backend
+2022-09-20 14:37:49,897 INFO    MainThread:21519 [wandb_init.py:init():552] setting up manager
+2022-09-20 14:37:49,911 ERROR   MainThread:21519 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 553, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 161, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 140, in send
+    self.send_server_request(server_req)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 84, in send_server_request
+    self._send_message(msg)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 81, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 61, in _sendall_with_error_handle
+    sent = self._sock.send(data[total_sent:])
+BrokenPipeError: [Errno 32] Broken pipe

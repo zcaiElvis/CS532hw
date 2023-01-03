@@ -1,0 +1,14 @@
+
+[2022-09-18 19:39:22,668][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 103, in my_app
+    log.info({"test": p_C(1)})
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 21, in p_C
+    return torch.exp(d.log_prob(c))
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/torch/distributions/categorical.py", line 121, in log_prob
+    self._validate_sample(value)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/torch/distributions/distribution.py", line 270, in _validate_sample
+    raise ValueError('The value argument to log_prob must be a Tensor')
+ValueError: The value argument to log_prob must be a Tensor
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

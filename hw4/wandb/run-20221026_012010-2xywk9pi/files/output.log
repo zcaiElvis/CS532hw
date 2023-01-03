@@ -1,0 +1,63 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [03:05<00:00,  3.71s/it]
+['vector', ['vector', ['vector', 'sample1'], ['vector', 'sample2'], ['vector', 'sample3'], ['vector', 'sample4'], ['vector', 'sample5'], ['vector', 'sample6'], ['vector', 'sample7'], ['vector', 'sample8'], ['vector', 'sample9'], ['vector', 'sample10']], ['vector', ['vector', 'sample121'], ['vector', 'sample122'], ['vector', 'sample123'], ['vector', 'sample124'], ['vector', 'sample125'], ['vector', 'sample126'], ['vector', 'sample127'], ['vector', 'sample128'], ['vector', 'sample129'], ['vector', 'sample130']], ['vector', ['vector', 'sample11', 'sample12', 'sample13', 'sample14', 'sample15', 'sample16', 'sample17', 'sample18', 'sample19', 'sample20'], ['vector', 'sample21', 'sample22', 'sample23', 'sample24', 'sample25', 'sample26', 'sample27', 'sample28', 'sample29', 'sample30'], ['vector', 'sample31', 'sample32', 'sample33', 'sample34', 'sample35', 'sample36', 'sample37', 'sample38', 'sample39', 'sample40'], ['vector', 'sample41', 'sample42', 'sample43', 'sample44', 'sample45', 'sample46', 'sample47', 'sample48', 'sample49', 'sample50'], ['vector', 'sample51', 'sample52', 'sample53', 'sample54', 'sample55', 'sample56', 'sample57', 'sample58', 'sample59', 'sample60'], ['vector', 'sample61', 'sample62', 'sample63', 'sample64', 'sample65', 'sample66', 'sample67', 'sample68', 'sample69', 'sample70'], ['vector', 'sample71', 'sample72', 'sample73', 'sample74', 'sample75', 'sample76', 'sample77', 'sample78', 'sample79', 'sample80'], ['vector', 'sample81', 'sample82', 'sample83', 'sample84', 'sample85', 'sample86', 'sample87', 'sample88', 'sample89', 'sample90'], ['vector', 'sample91', 'sample92', 'sample93', 'sample94', 'sample95', 'sample96', 'sample97', 'sample98', 'sample99', 'sample100'], ['vector', 'sample101', 'sample102', 'sample103', 'sample104', 'sample105', 'sample106', 'sample107', 'sample108', 'sample109', 'sample110']], ['vector', ['vector', 'sample131'], ['vector', 'sample132'], ['vector', 'sample133'], ['vector', 'sample134'], ['vector', 'sample135'], ['vector', 'sample136'], ['vector', 'sample137'], ['vector', 'sample138'], ['vector', 'sample139'], ['vector', 'sample140']], ['mat-transpose', ['mat-tanh', ['mat-add', ['mat-mul', ['vector', ['vector', 'sample111', 'sample112', 'sample113', 'sample114', 'sample115', 'sample116', 'sample117', 'sample118', 'sample119', 'sample120']], ['mat-tanh', ['mat-add', ['mat-mul', ['vector', ['vector', 'sample11', 'sample12', 'sample13', 'sample14', 'sample15', 'sample16', 'sample17', 'sample18', 'sample19', 'sample20'], ['vector', 'sample21', 'sample22', 'sample23', 'sample24', 'sample25', 'sample26', 'sample27', 'sample28', 'sample29', 'sample30'], ['vector', 'sample31', 'sample32', 'sample33', 'sample34', 'sample35', 'sample36', 'sample37', 'sample38', 'sample39', 'sample40'], ['vector', 'sample41', 'sample42', 'sample43', 'sample44', 'sample45', 'sample46', 'sample47', 'sample48', 'sample49', 'sample50'], ['vector', 'sample51', 'sample52', 'sample53', 'sample54', 'sample55', 'sample56', 'sample57', 'sample58', 'sample59', 'sample60'], ['vector', 'sample61', 'sample62', 'sample63', 'sample64', 'sample65', 'sample66', 'sample67', 'sample68', 'sample69', 'sample70'], ['vector', 'sample71', 'sample72', 'sample73', 'sample74', 'sample75', 'sample76', 'sample77', 'sample78', 'sample79', 'sample80'], ['vector', 'sample81', 'sample82', 'sample83', 'sample84', 'sample85', 'sample86', 'sample87', 'sample88', 'sample89', 'sample90'], ['vector', 'sample91', 'sample92', 'sample93', 'sample94', 'sample95', 'sample96', 'sample97', 'sample98', 'sample99', 'sample100'], ['vector', 'sample101', 'sample102', 'sample103', 'sample104', 'sample105', 'sample106', 'sample107', 'sample108', 'sample109', 'sample110']], ['mat-tanh', ['mat-add', ['mat-mul', ['vector', ['vector', 'sample1'], ['vector', 'sample2'], ['vector', 'sample3'], ['vector', 'sample4'], ['vector', 'sample5'], ['vector', 'sample6'], ['vector', 'sample7'], ['vector', 'sample8'], ['vector', 'sample9'], ['vector', 'sample10']], ['vector', ['vector', 6.0]]], ['vector', ['vector', 'sample121'], ['vector', 'sample122'], ['vector', 'sample123'], ['vector', 'sample124'], ['vector', 'sample125'], ['vector', 'sample126'], ['vector', 'sample127'], ['vector', 'sample128'], ['vector', 'sample129'], ['vector', 'sample130']]]]], ['vector', ['vector', 'sample131'], ['vector', 'sample132'], ['vector', 'sample133'], ['vector', 'sample134'], ['vector', 'sample135'], ['vector', 'sample136'], ['vector', 'sample137'], ['vector', 'sample138'], ['vector', 'sample139'], ['vector', 'sample140']]]]], ['vector', ['vector', 'sample141']]]]]]
+Backend MacOSX is interactive backend. Turning interactive mode on.
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  data = np.array(samples)
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  data = np.array(samples)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/numpy/core/shape_base.py:121: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  ary = asanyarray(ary)

@@ -1,0 +1,21 @@
+Running deterministic tests
+Test 21 starting
+Evaluation scheme: graph
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 139, in run_all
+    run_tests(tests, mode=mode, test_type='deterministic', base_dir=base_dir, daphne_dir=daphne_dir, compile=compile)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 52, in run_tests
+    ret, _ = get_sample(ast_or_graph, mode, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/general_sampling.py", line 24, in get_sample
+    ret, sig, _ = evaluate_graph(ast_or_graph, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/graph_based_sampling.py", line 80, in evaluate_graph
+    result, sigma = Evaluate_g(graph.program, rho = g_dict, sigma=sig_dict)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/graph_based_sampling.py", line 68, in Evaluate_g
+    return evaluate_vi(j, l, rho, sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 96, in evaluate_vi
+    result = evaluate_vi([opt, *values], l, rho = rho, sigma= sigma)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/evaluate_vi.py", line 80, in evaluate_vi
+    opt = rho[j[0]]
+KeyError: <function vector at 0x16c20ee60>
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

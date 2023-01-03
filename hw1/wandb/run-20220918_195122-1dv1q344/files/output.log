@@ -1,0 +1,12 @@
+/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py:108: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  S_true = p_S_given_C(torch.tensor(1), torch.tensor(C))
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 108, in my_app
+    S_true = p_S_given_C(torch.tensor(1), torch.tensor(C))
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 27, in p_S_given_C
+    lp = d.log_prob(s)[c.detach()]
+IndexError: tensors used as indices must be long, byte or bool tensors
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-18 19:51:25,232][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:51:25,233][__main__][INFO] - {'test': tensor([0.5000])}

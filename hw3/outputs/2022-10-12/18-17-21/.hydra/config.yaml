@@ -1,0 +1,14 @@
+wandb_run: true
+base_dir: ../CS532-HW3
+daphne_dir: ../daphne
+deterministic_tests: []
+probabilistic_tests: []
+HW2_programs:
+- 1
+- 2
+- 3
+- 4
+- 5
+compile: false
+mode: desugar
+num_samples: 1000.0

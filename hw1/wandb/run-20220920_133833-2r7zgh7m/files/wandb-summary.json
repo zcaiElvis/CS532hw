@@ -1,0 +1,1 @@
+{"prob_cloudy_given_wet_grass": {"ancestral + reject": 57.78499984741211}, "_timestamp": 1663706334.658432, "_runtime": 21.440186023712158, "_step": 11000, "gibbs": {"iteration": 10999, "c": 0.0, "s": 1.0, "r": 1.0, "w": 1.0, "p(c,s,r,w)": 0.0494999960064888}, "_wandb": {"runtime": 22}}

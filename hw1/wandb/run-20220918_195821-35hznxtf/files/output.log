@@ -1,0 +1,12 @@
+[2022-09-18 19:58:23,866][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:58:23,867][__main__][INFO] - {'test': tensor([0.5000])}
+[2022-09-18 19:58:23,868][__main__][INFO] - {'check': tensor(1.)}
+[2022-09-18 19:58:23,869][__main__][INFO] - {'check': tensor(0.)}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 117, in my_app
+    W_true = p_W_given_S_R(1, S, R)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 42, in p_W_given_S_R
+    return probs[w.detach(), s.detach(), r.detach()]
+AttributeError: 'int' object has no attribute 'detach'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

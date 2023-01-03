@@ -1,0 +1,11 @@
+[2022-09-19 13:52:56,486][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-19 13:52:56,486][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 188, in my_app
+    if (torch.equal([state[0], state[1], state[2], state[3]], torch.tensor([torch.tensor(1), torch.tensor(0), torch.tensor(0), torch.tensor(1)]))):
+TypeError: equal(): argument 'input' (position 1) must be Tensor, not list
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-19 13:53:01,869][__main__][INFO] - #2 (ancestral + reject) : The chance of it being cloudy given the grass is wet is 0.00%
+[2022-09-19 13:53:01,869][__main__][INFO] - #2 (ancestral + reject) : 38.51% of the total samples were rejected
+[2022-09-19 13:53:01,872][__main__][INFO] - {'check': tensor(0.2000)}

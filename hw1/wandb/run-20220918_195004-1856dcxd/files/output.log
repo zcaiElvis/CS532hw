@@ -1,0 +1,10 @@
+[2022-09-18 19:50:07,080][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:50:07,080][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 107, in my_app
+    C = torch.randint(2)
+TypeError: randint() received an invalid combination of arguments - got (int), but expected one of:
+ * (int high, tuple of ints size, *, torch.Generator generator, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool requires_grad)
+ * (int low, int high, tuple of ints size, *, torch.Generator generator, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool requires_grad)
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

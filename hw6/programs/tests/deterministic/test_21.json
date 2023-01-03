@@ -1,0 +1,25 @@
+[
+    "fn",
+    [
+        "alpha",
+        "k-return"
+    ],
+    [
+        "push-address",
+        "alpha",
+        "addr0",
+        [
+            "fn",
+            [
+                "cps1"
+            ],
+            [
+                "vector",
+                "cps1",
+                true,
+                false,
+                "k-return"
+            ]
+        ]
+    ]
+]

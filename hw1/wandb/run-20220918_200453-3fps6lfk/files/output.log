@@ -1,0 +1,8 @@
+[2022-09-18 20:04:56,349][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 20:04:56,350][__main__][INFO] - {'test': tensor([0.5000])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 116, in my_app
+    rejection+=1
+UnboundLocalError: local variable 'rejection' referenced before assignment
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

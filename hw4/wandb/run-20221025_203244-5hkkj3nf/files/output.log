@@ -1,0 +1,56 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+  5%|██████████▊                                                                                                                                                                                                              | 5/100 [00:09<03:03,  1.93s/it]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 156, in <module>
+    run_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 147, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 99, in run_programs
+    samples, _ = VI_sampling(ast_or_graph, num_samples, program=i, tmax=tmax, wandb_name=wandb_name, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 208, in VI_sampling
+    resamples, vx_latent, losses = add_graphs_vi(ast_or_graph.graph_spec, env, sig_dict, num_samples, program)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 169, in add_graphs_vi
+    log_prior += d.log_prob(X_dict[v])
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/distributions/normal.py", line 81, in log_prob
+    return -((value - self.loc) ** 2) / (2 * var) - log_scale - math.log(math.sqrt(2 * math.pi))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/_tensor.py", line 26, in wrapped
+    @functools.wraps(f, assigned=assigned)
+  File "/Users/elvis/.vscode/extensions/ms-python.python-2022.16.1/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 326, in __call__
+    def __call__(self, frame, event, arg):
+KeyboardInterrupt

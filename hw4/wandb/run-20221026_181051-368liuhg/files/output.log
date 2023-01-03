@@ -1,0 +1,17 @@
+  0%|                                                                                                         | 0/300 [00:00<?, ?it/s]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 157, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 99, in run_programs
+    samples, _ = VI_sampling(ast_or_graph, num_samples, program=i, tmax=tmax, wandb_name=wandb_name, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 216, in VI_sampling
+    resamples, vx_latent, losses = add_graphs_vi(ast_or_graph.graph_spec, env, sig_dict, num_samples, program, wandb_name)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 187, in add_graphs_vi
+    log_loss(ELBO_loss.clone().detach(), i, program, wandb_name)
+UnboundLocalError: local variable 'i' referenced before assignment
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Running: homework_4: 1
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph

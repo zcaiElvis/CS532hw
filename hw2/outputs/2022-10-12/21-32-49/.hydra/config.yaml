@@ -1,0 +1,10 @@
+wandb_run: false
+base_dir: ../CS532-HW2
+daphne_dir: ../daphne
+deterministic_tests: []
+probabilistic_tests:
+- 5
+HW2_programs: []
+compile: false
+mode: graph
+num_samples: 1

@@ -1,0 +1,47 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+
+
+
+
+ 28%|██████████████████████████                                                                   | 14/50 [00:18<00:47,  1.31s/it]
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 156, in <module>
+    run_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 147, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 99, in run_programs
+    samples, _ = VI_sampling(ast_or_graph, num_samples, program=i, tmax=tmax, wandb_name=wandb_name, verbose=verbose)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 208, in VI_sampling
+    resamples, vx_latent, losses = add_graphs_vi(ast_or_graph.graph_spec, env, sig_dict, num_samples, program)
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 148, in add_graphs_vi
+    log_Q = tc.stack([tc.stack([Q[x].log_prob(sample[x]) for x in sample.keys()]).sum() for sample in Q_samples])
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 148, in <listcomp>
+    log_Q = tc.stack([tc.stack([Q[x].log_prob(sample[x]) for x in sample.keys()]).sum() for sample in Q_samples])
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/VI.py", line 148, in <listcomp>
+    log_Q = tc.stack([tc.stack([Q[x].log_prob(sample[x]) for x in sample.keys()]).sum() for sample in Q_samples])
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/distributions.py", line 32, in log_prob
+    self.scale = positive_function(self.optim_scale) # Needed to carry the gradient through
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py", line 11, in softplus
+    s = tc.where(x<=threshold, tc.log(tc.exp(beta*x)+1.)/beta, x)
+KeyboardInterrupt

@@ -1,0 +1,22 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████| 50/50 [00:20<00:00,  2.45it/s]
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  data = np.array(samples)
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  data = np.array(samples)
+Backend MacOSX is interactive backend. Turning interactive mode on.
+[2022-10-26 01:57:26,229][urllib3.connectionpool][WARNING] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x28d972b90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /api/5288891/envelope/
+[2022-10-26 01:57:26,252][urllib3.connectionpool][WARNING] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1710c64a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /api/5288891/envelope/

@@ -1,0 +1,16 @@
+wandb_run: false
+seed: None
+base_dir: ../CPSC532W_hw6
+daphne_dir: ../daphne
+recursion_limit: 5000
+deterministic_tests: []
+hoppl_deterministic_tests: []
+probabilistic_tests: []
+homework5_programs: []
+homework6_programs:
+- 2
+- 3
+inference: IS
+compile: false
+num_samples: 1000000.0
+tmax: 60

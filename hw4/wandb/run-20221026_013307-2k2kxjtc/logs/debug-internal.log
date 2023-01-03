@@ -1,0 +1,39 @@
+2022-10-26 01:33:07,745 INFO    StreamThr :13410 [internal.py:wandb_internal():88] W&B internal server running at pid: 13410, started at: 2022-10-26 01:33:07.735315
+2022-10-26 01:33:07,751 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: status
+2022-10-26 01:33:07,754 DEBUG   SenderThread:13410 [sender.py:send_request():317] send_request: status
+2022-10-26 01:33:07,757 DEBUG   SenderThread:13410 [sender.py:send():303] send: header
+2022-10-26 01:33:07,758 INFO    WriterThread:13410 [datastore.py:open_for_write():75] open: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/run-2k2kxjtc.wandb
+2022-10-26 01:33:07,763 DEBUG   SenderThread:13410 [sender.py:send():303] send: run
+2022-10-26 01:33:08,072 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: check_version
+2022-10-26 01:33:08,075 INFO    SenderThread:13410 [dir_watcher.py:__init__():216] watching files in: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files
+2022-10-26 01:33:08,076 INFO    SenderThread:13410 [sender.py:_start_run_threads():928] run started: 2k2kxjtc with start time 1666773187.722396
+2022-10-26 01:33:08,076 DEBUG   SenderThread:13410 [sender.py:send():303] send: summary
+2022-10-26 01:33:08,076 INFO    SenderThread:13410 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 01:33:08,077 DEBUG   SenderThread:13410 [sender.py:send_request():317] send_request: check_version
+2022-10-26 01:33:08,165 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: run_start
+2022-10-26 01:33:08,166 DEBUG   HandlerThread:13410 [meta.py:__init__():34] meta init
+2022-10-26 01:33:08,166 DEBUG   HandlerThread:13410 [meta.py:__init__():49] meta init done
+2022-10-26 01:33:08,166 DEBUG   HandlerThread:13410 [meta.py:probe():215] probe
+2022-10-26 01:33:08,181 DEBUG   HandlerThread:13410 [meta.py:_setup_git():205] setup git
+2022-10-26 01:33:08,202 DEBUG   HandlerThread:13410 [meta.py:_setup_git():212] setup git done
+2022-10-26 01:33:08,202 DEBUG   HandlerThread:13410 [meta.py:_save_pip():53] save pip
+2022-10-26 01:33:08,203 DEBUG   HandlerThread:13410 [meta.py:_save_pip():67] save pip done
+2022-10-26 01:33:08,203 DEBUG   HandlerThread:13410 [meta.py:probe():253] probe done
+2022-10-26 01:33:08,207 DEBUG   SenderThread:13410 [sender.py:send():303] send: files
+2022-10-26 01:33:08,212 INFO    SenderThread:13410 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-26 01:33:08,213 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 01:33:08,213 DEBUG   SenderThread:13410 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 01:33:08,345 DEBUG   SenderThread:13410 [sender.py:send():303] send: telemetry
+2022-10-26 01:33:08,731 INFO    Thread-23 :13410 [upload_job.py:push():143] Uploaded file /var/folders/8n/816m6fhn3tj54_s_p9r0t3hw0000gn/T/tmpn_ndg38vwandb/20q7lkgv-wandb-metadata.json
+2022-10-26 01:33:08,830 DEBUG   SenderThread:13410 [sender.py:send():303] send: telemetry
+2022-10-26 01:33:09,084 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/wandb-metadata.json
+2022-10-26 01:33:09,084 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/wandb-summary.json
+2022-10-26 01:33:09,084 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/output.log
+2022-10-26 01:33:09,084 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/requirements.txt
+2022-10-26 01:33:11,090 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/output.log
+2022-10-26 01:33:23,353 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 01:33:23,354 DEBUG   SenderThread:13410 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 01:33:38,452 DEBUG   HandlerThread:13410 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 01:33:38,452 DEBUG   SenderThread:13410 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 01:33:39,232 INFO    Thread-19 :13410 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_013307-2k2kxjtc/files/config.yaml
+2022-10-26 01:33:47,691 DEBUG   SenderThread:13410 [sender.py:send():303] send: stats

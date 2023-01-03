@@ -1,0 +1,4 @@
+wandb_entity: elvis_cai
+wandb_project: hw1
+wandb_logging: 'True'
+seed: 1002

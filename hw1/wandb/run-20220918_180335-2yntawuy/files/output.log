@@ -1,0 +1,21 @@
+[2022-09-18 18:03:37,939][__main__][INFO] - {'p': tensor([[[[0.2000, 0.0000],
+          [0.0050, 0.0450]],
+         [[0.0200, 0.1800],
+          [0.0005, 0.0495]]],
+        [[[0.0900, 0.0000],
+          [0.0360, 0.3240]],
+         [[0.0010, 0.0090],
+          [0.0004, 0.0396]]]])}
+[2022-09-18 18:03:37,942][__main__][INFO] - {'r1111': tensor(0.0396)}
+[2022-09-18 18:03:37,943][__main__][INFO] - {'r1111': tensor(0.3240)}
+[2022-09-18 18:03:37,943][__main__][INFO] - {'r1111': tensor(0.0090)}
+[2022-09-18 18:03:37,944][__main__][INFO] - {'r1111': tensor(0.)}
+[2022-09-18 18:03:37,944][__main__][INFO] - {'r1': tensor([[0.0010, 0.0090],
+        [0.0004, 0.0396]])}
+[2022-09-18 18:03:37,945][__main__][INFO] - {'r2': tensor([0.2745, 0.3726])}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 108, in my_app
+    log.info('#1 (enum and cond) : There is a {:.2f}% chance it is cloudy given the grass is wet'.format(p_C_given_W[100]*100))
+NameError: name 'p_C_given_W' is not defined
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

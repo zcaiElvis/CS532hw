@@ -1,0 +1,4 @@
+[2022-09-18 19:58:23,866][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+[2022-09-18 19:58:23,867][__main__][INFO] - {'test': tensor([0.5000])}
+[2022-09-18 19:58:23,868][__main__][INFO] - {'check': tensor(1.)}
+[2022-09-18 19:58:23,869][__main__][INFO] - {'check': tensor(0.)}

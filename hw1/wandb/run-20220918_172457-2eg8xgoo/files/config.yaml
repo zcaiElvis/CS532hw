@@ -1,0 +1,38 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1663547097.28136
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 23
+      4: 3.9.13
+      5: 0.13.1
+      8:
+      - 5
+seed:
+  desc: null
+  value: 1002
+wandb_entity:
+  desc: null
+  value: elvis_cai
+wandb_logging:
+  desc: null
+  value: 'True'
+wandb_project:
+  desc: null
+  value: hw1

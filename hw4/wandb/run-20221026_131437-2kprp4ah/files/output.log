@@ -1,0 +1,62 @@
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+Evaluation scheme: graph
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.23it/s]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 149, in run_all
+    run_programs(programs, mode=mode, method = method, prog_set='homework_4', base_dir=base_dir, daphne_dir=daphne_dir, num_samples=num_samples,
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 102, in run_programs
+    samples = [tc.stack(sample).type(tc.float) for sample in samples]
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/run.py", line 102, in <listcomp>
+    samples = [tc.stack(sample).type(tc.float) for sample in samples]
+RuntimeError: stack expects each tensor to be equal size, but got [10, 1] at entry 0 and [10, 10] at entry 2
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[tensor([[ 0.2030],
+        [-0.4800],
+        [-0.5839],
+        [ 1.1225],
+        [ 0.2371],
+        [ 0.9424],
+        [-1.1928],
+        [ 0.0765],
+        [-1.2897],
+        [-0.3962]]), tensor([[-1.0357],
+        [-0.9284],
+        [-0.3334],
+        [-0.2998],
+        [ 0.8626],
+        [ 0.0510],
+        [-1.2751],
+        [-0.0236],
+        [ 0.0228],
+        [-1.5187]]), tensor([[-1.3661,  0.3557, -0.0858,  0.3366,  0.6865, -1.1709, -1.0401, -0.9897,
+         -0.6966,  1.4463],
+        [ 0.8481, -0.5622, -1.7554, -0.6717, -0.3647, -0.4416,  2.0263,  1.4531,
+         -0.9222,  0.9899],
+        [-0.2948,  0.4861,  1.9894, -1.1929, -1.9472,  0.0856, -0.6564,  0.7249,
+         -1.0760, -0.1247],
+        [ 0.2160, -1.3755,  0.6067, -2.0393,  0.0267, -0.7559,  0.3300,  0.5616,
+         -0.4192,  0.7640],
+        [ 0.2885,  0.5872,  0.3720, -0.3195,  0.8247, -1.3277,  0.5965,  0.3353,
+          0.9782, -1.5128],
+        [-0.8450, -0.3283,  1.0788, -2.2784,  0.6664,  3.0419, -0.4675,  0.4935,
+          2.8577,  1.4867],
+        [-0.1467, -0.1981,  0.4361, -0.6227,  1.5695,  0.9993, -0.0195,  0.3735,
+          0.2121, -1.0670],
+        [-1.8793,  0.2791,  2.3052,  0.3489,  0.2029, -0.2626, -1.1840,  0.5669,
+          0.1629, -1.0384],
+        [ 0.9415, -0.2170,  0.4357, -0.1787,  0.3926,  1.9432, -0.9973,  0.1391,
+          0.6753, -1.0016],
+        [ 1.8475,  1.7586,  0.4069, -1.2233,  0.0976,  0.1567,  1.0806, -0.2252,
+         -0.5399,  0.0361]]), tensor([[-0.7335],
+        [-0.5203],
+        [ 0.9062],
+        [ 1.4076],
+        [ 0.0382],
+        [ 0.4608],
+        [-0.8370],
+        [-1.0386],
+        [-0.0062],
+        [-0.1463]]), tensor([[1.0000]])]

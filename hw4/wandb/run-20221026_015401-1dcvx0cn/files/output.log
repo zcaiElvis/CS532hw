@@ -1,0 +1,20 @@
+
+  8%|██████                                                                      | 4/50 [00:01<00:16,  2.72it/s]
+Running: homework_4: 4
+Maximum samples [log10]: 3.0
+Maximum time [s]: None
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████| 50/50 [00:17<00:00,  2.78it/s]
+Backend MacOSX is interactive backend. Turning interactive mode on.
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  data = np.array(samples)
+/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/utils.py:74: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  data = np.array(samples)

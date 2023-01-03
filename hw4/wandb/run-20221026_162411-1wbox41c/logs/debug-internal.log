@@ -1,0 +1,582 @@
+2022-10-26 16:24:11,805 INFO    StreamThr :21100 [internal.py:wandb_internal():88] W&B internal server running at pid: 21100, started at: 2022-10-26 16:24:11.804663
+2022-10-26 16:24:11,807 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: status
+2022-10-26 16:24:11,808 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: status
+2022-10-26 16:24:11,808 DEBUG   SenderThread:21100 [sender.py:send():303] send: header
+2022-10-26 16:24:11,808 INFO    WriterThread:21100 [datastore.py:open_for_write():75] open: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/run-1wbox41c.wandb
+2022-10-26 16:24:11,813 DEBUG   SenderThread:21100 [sender.py:send():303] send: run
+2022-10-26 16:24:12,051 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: check_version
+2022-10-26 16:24:12,053 INFO    SenderThread:21100 [dir_watcher.py:__init__():216] watching files in: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files
+2022-10-26 16:24:12,053 INFO    SenderThread:21100 [sender.py:_start_run_threads():928] run started: 1wbox41c with start time 1666826651.798173
+2022-10-26 16:24:12,053 DEBUG   SenderThread:21100 [sender.py:send():303] send: summary
+2022-10-26 16:24:12,054 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 16:24:12,054 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: check_version
+2022-10-26 16:24:12,117 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: run_start
+2022-10-26 16:24:12,119 DEBUG   HandlerThread:21100 [meta.py:__init__():34] meta init
+2022-10-26 16:24:12,120 DEBUG   HandlerThread:21100 [meta.py:__init__():49] meta init done
+2022-10-26 16:24:12,120 DEBUG   HandlerThread:21100 [meta.py:probe():215] probe
+2022-10-26 16:24:12,128 DEBUG   HandlerThread:21100 [meta.py:_setup_git():205] setup git
+2022-10-26 16:24:12,149 DEBUG   HandlerThread:21100 [meta.py:_setup_git():212] setup git done
+2022-10-26 16:24:12,150 DEBUG   HandlerThread:21100 [meta.py:_save_pip():53] save pip
+2022-10-26 16:24:12,150 DEBUG   HandlerThread:21100 [meta.py:_save_pip():67] save pip done
+2022-10-26 16:24:12,150 DEBUG   HandlerThread:21100 [meta.py:probe():253] probe done
+2022-10-26 16:24:12,153 DEBUG   SenderThread:21100 [sender.py:send():303] send: files
+2022-10-26 16:24:12,154 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-26 16:24:12,157 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:24:12,157 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:24:12,255 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:24:12,703 INFO    Thread-17 :21100 [upload_job.py:push():143] Uploaded file /var/folders/8n/816m6fhn3tj54_s_p9r0t3hw0000gn/T/tmp7l3879mfwandb/3j1g2n40-wandb-metadata.json
+2022-10-26 16:24:12,766 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:24:13,054 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:13,054 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-summary.json
+2022-10-26 16:24:13,055 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-metadata.json
+2022-10-26 16:24:13,055 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/requirements.txt
+2022-10-26 16:24:15,065 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:17,076 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:19,084 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:21,095 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:25,115 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:27,124 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:27,262 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:24:27,262 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:24:29,134 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:31,145 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:35,166 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:37,177 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:39,187 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:41,198 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:42,203 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/config.yaml
+2022-10-26 16:24:42,364 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:24:42,364 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:24:45,219 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:47,229 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:49,236 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:51,247 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:51,532 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:24:53,253 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:57,285 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:24:57,468 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:24:57,468 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:24:59,291 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:01,302 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:03,312 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:05,323 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:09,343 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:11,350 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:12,563 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:25:12,563 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:25:13,355 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:17,372 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:19,381 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:21,388 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:23,399 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:27,420 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:27,749 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:25:27,750 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:25:29,431 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:31,442 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:32,922 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:25:33,451 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:37,472 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:39,478 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:41,489 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:42,858 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:25:42,858 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:25:45,502 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:47,512 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:48,517 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:50,523 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:54,541 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:56,551 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:25:57,967 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:25:57,967 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:25:58,562 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:00,568 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:02,577 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:06,598 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:08,607 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:10,612 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:12,622 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:13,080 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:26:13,080 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:26:14,194 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:26:16,639 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:18,650 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:20,660 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:22,671 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:24,681 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:28,193 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:26:28,193 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:26:28,702 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:30,710 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:32,716 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:34,726 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:38,747 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:40,758 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:42,768 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:43,375 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:26:43,375 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:26:44,775 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:46,784 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:50,805 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:52,815 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:54,826 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:26:55,513 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:26:58,481 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:26:58,482 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:26:58,845 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:00,847 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:02,856 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:06,877 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:08,888 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:10,898 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:12,908 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:13,592 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:27:13,592 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:27:16,925 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:18,935 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:20,946 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:22,956 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:26,977 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:28,764 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:27:28,764 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:27:28,987 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:30,998 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:33,002 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:37,019 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:37,083 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:27:39,028 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:41,036 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:43,881 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:27:43,881 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:27:45,053 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:47,063 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:49,072 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:51,078 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:55,098 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:57,109 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:27:58,989 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:27:58,989 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:27:59,118 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:01,128 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:03,136 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:07,155 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:09,166 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:11,176 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:14,089 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:28:14,089 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:28:15,195 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:17,206 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:18,365 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:28:19,212 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:21,218 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:25,239 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:27,250 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:29,259 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:29,283 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:28:29,291 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:28:31,269 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:33,276 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:37,297 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:39,307 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:41,310 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:43,316 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:44,401 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:28:44,401 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:28:47,336 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:49,346 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:51,353 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:53,364 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:55,373 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:59,393 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:28:59,506 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:28:59,506 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:28:59,645 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:29:01,404 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:03,408 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:07,421 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:09,430 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:11,439 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:13,449 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:14,604 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:29:14,604 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:29:17,468 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:19,479 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:21,489 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:23,500 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:25,509 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:29,519 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:29,712 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:29:29,712 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:29:31,529 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:33,532 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:37,550 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:39,560 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:40,948 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:29:41,569 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:43,580 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:44,831 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:29:44,831 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:29:47,600 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:49,611 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:51,621 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:53,631 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:55,641 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:59,657 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:29:59,942 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:29:59,943 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:30:01,667 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:03,678 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:05,688 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:07,699 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:11,719 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:13,730 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:15,052 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:30:15,052 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:30:15,740 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:17,750 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:19,761 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:22,359 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:30:23,781 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:25,792 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:27,802 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:29,813 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:30,163 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:30:30,164 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:30:31,823 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:35,844 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:37,854 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:39,865 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:41,876 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:45,267 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:30:45,267 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:30:45,896 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:47,906 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:49,917 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:51,919 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:53,931 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:57,950 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:30:59,961 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:00,381 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:31:00,381 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:31:01,970 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:03,814 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:31:03,981 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:07,992 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:10,003 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:12,013 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:14,024 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:15,488 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:31:15,488 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:31:18,044 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:20,055 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:22,060 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:24,066 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:28,086 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:30,098 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:30,634 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:31:30,634 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:31:32,106 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:34,117 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:36,125 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:40,143 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:42,153 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:44,163 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:45,176 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:31:45,741 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:31:45,741 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:31:46,173 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:50,191 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:52,202 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:54,212 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:56,223 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:31:58,232 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:01,071 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:32:01,072 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:32:02,252 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:04,264 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:06,271 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:10,289 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:12,300 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:14,310 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:16,251 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:32:16,251 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:32:16,321 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:18,332 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:22,352 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:24,363 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:26,373 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:26,476 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:32:28,381 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:31,367 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:32:31,367 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:32:32,401 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:34,412 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:36,422 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:38,432 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:40,443 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:44,458 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:46,466 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:46,472 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:32:46,472 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:32:48,476 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:50,483 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:52,494 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:56,513 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:32:58,524 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:00,534 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:01,574 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:33:01,574 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:33:02,544 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:06,564 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:07,833 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:33:08,572 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:10,582 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:12,593 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:16,614 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:16,681 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:33:16,681 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:33:18,624 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:20,635 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:22,641 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:26,660 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:28,671 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:30,679 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:31,783 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:33:31,783 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:33:32,688 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:34,700 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:38,721 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:40,732 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:42,742 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:44,753 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:46,760 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:46,948 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:33:46,949 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:33:49,165 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:33:50,776 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:52,788 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:54,799 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:56,809 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:33:59,822 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:01,830 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:02,058 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:34:02,058 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:34:03,841 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:05,848 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:09,867 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:11,873 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:13,884 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:15,894 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:17,159 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:34:17,159 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:34:17,905 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:21,925 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:23,933 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:25,944 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:27,954 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:30,470 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:34:31,975 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:32,260 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:34:32,261 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:34:33,986 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:35,996 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:38,008 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:42,029 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:44,039 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:46,050 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:47,371 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:34:47,371 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:34:48,060 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:50,071 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:54,094 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:56,104 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:34:58,115 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:00,126 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:02,135 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:02,576 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:35:02,576 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:35:06,156 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:08,167 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:10,177 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:11,787 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:35:12,184 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:16,201 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:17,683 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:35:17,683 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:35:18,212 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:20,222 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:22,232 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:26,249 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:28,260 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:30,270 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:32,281 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:32,825 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:35:32,825 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:35:34,291 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:38,312 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:40,322 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:42,333 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:44,344 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:46,355 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:47,936 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:35:47,937 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:35:50,376 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:52,386 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:53,244 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:35:54,397 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:35:56,408 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:00,429 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:02,439 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:03,044 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:36:03,045 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:36:04,449 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:06,460 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:08,470 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:12,491 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:14,500 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:16,510 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:18,157 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:36:18,157 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:36:18,521 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:20,531 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:24,552 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:26,562 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:28,571 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:30,582 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:32,592 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:33,266 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-26 16:36:33,266 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: stop_status
+2022-10-26 16:36:34,606 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:36:36,608 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:41,721 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:36:41,804 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:36:41,815 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:36:41,870 DEBUG   SenderThread:21100 [sender.py:send():303] send: config
+2022-10-26 16:36:41,997 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-26 16:36:41,997 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: log_artifact
+2022-10-26 16:36:42,202 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-26 16:36:42,638 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:42,638 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json
+2022-10-26 16:36:42,638 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/media
+2022-10-26 16:36:42,638 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/media/table
+2022-10-26 16:36:42,979 INFO    Thread-19 :21100 [upload_job.py:push():101] Uploaded file /Users/elvis/.cache/wandb/artifacts/obj/md5/af/8736c8d439e61e9d8b692fdc0e22a8
+2022-10-26 16:36:43,172 INFO    Thread-20 :21100 [upload_job.py:push():143] Uploaded file /var/folders/8n/816m6fhn3tj54_s_p9r0t3hw0000gn/T/tmp7l3879mfwandb/30p5oekp-media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json
+2022-10-26 16:36:43,214 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 16:36:43,816 INFO    SenderThread:21100 [sender.py:send_request_log_artifact():1222] logged artifact run-1wbox41c-Program4heatmap - {'id': 'QXJ0aWZhY3Q6MjYxNDE1NTI1', 'digest': '695956c377bde6ccb9ee4b84fae7c9d2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQyNDQ0NTky', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-26 16:36:43,816 DEBUG   SenderThread:21100 [sender.py:send():303] send: files
+2022-10-26 16:36:43,817 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json with policy now
+2022-10-26 16:36:43,817 DEBUG   SenderThread:21100 [sender.py:send():303] send: history
+2022-10-26 16:36:43,817 DEBUG   SenderThread:21100 [sender.py:send():303] send: summary
+2022-10-26 16:36:43,818 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 16:36:43,818 DEBUG   SenderThread:21100 [sender.py:send():303] send: telemetry
+2022-10-26 16:36:43,818 DEBUG   SenderThread:21100 [sender.py:send():303] send: exit
+2022-10-26 16:36:43,818 INFO    SenderThread:21100 [sender.py:send_exit():442] handling exit code: 0
+2022-10-26 16:36:43,818 INFO    SenderThread:21100 [sender.py:send_exit():444] handling runtime: 750
+2022-10-26 16:36:43,819 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 16:36:43,819 INFO    SenderThread:21100 [sender.py:send_exit():450] send defer
+2022-10-26 16:36:43,819 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 16:36:43,819 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:43,819 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-26 16:36:43,819 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:43,819 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-26 16:36:43,819 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 1
+2022-10-26 16:36:43,820 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:43,820 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-26 16:36:44,498 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 16:36:44,498 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,499 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-26 16:36:44,499 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 2
+2022-10-26 16:36:44,499 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 16:36:44,499 DEBUG   SenderThread:21100 [sender.py:send():303] send: stats
+2022-10-26 16:36:44,499 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:44,499 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-26 16:36:44,499 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,499 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-26 16:36:44,499 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 3
+2022-10-26 16:36:44,499 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:44,500 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-26 16:36:44,500 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 4
+2022-10-26 16:36:44,500 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:44,500 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-26 16:36:44,500 DEBUG   SenderThread:21100 [sender.py:send():303] send: summary
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-26 16:36:44,500 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 5
+2022-10-26 16:36:44,500 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:44,500 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-26 16:36:44,500 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,500 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-26 16:36:44,640 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:44,641 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-summary.json
+2022-10-26 16:36:44,671 INFO    Thread-21 :21100 [upload_job.py:push():143] Uploaded file /var/folders/8n/816m6fhn3tj54_s_p9r0t3hw0000gn/T/tmp7l3879mfwandb/1f5xvjtq-media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json
+2022-10-26 16:36:44,851 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 6
+2022-10-26 16:36:44,851 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:44,851 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-26 16:36:44,852 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:44,852 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-26 16:36:45,216 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 16:36:45,651 INFO    Thread-13 :21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/config.yaml
+2022-10-26 16:36:46,242 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 7
+2022-10-26 16:36:46,242 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 16:36:46,244 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:46,244 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-26 16:36:46,244 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:46,244 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-26 16:36:46,244 INFO    SenderThread:21100 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-26 16:36:46,657 INFO    SenderThread:21100 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:46,659 INFO    SenderThread:21100 [dir_watcher.py:finish():392] scan: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files
+2022-10-26 16:36:46,661 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/requirements.txt requirements.txt
+2022-10-26 16:36:46,662 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log output.log
+2022-10-26 16:36:46,666 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/config.yaml config.yaml
+2022-10-26 16:36:46,667 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-summary.json wandb-summary.json
+2022-10-26 16:36:46,667 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-metadata.json wandb-metadata.json
+2022-10-26 16:36:46,672 INFO    SenderThread:21100 [dir_watcher.py:finish():406] scan save: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json media/table/Program 4; heatmap_0_bebf01bfd12e65417ca6.table.json
+2022-10-26 16:36:46,673 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 8
+2022-10-26 16:36:46,674 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:46,681 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-26 16:36:46,681 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:46,681 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-26 16:36:46,681 INFO    SenderThread:21100 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-26 16:36:47,106 INFO    Thread-23 :21100 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/output.log
+2022-10-26 16:36:47,108 INFO    Thread-24 :21100 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/config.yaml
+2022-10-26 16:36:47,110 INFO    Thread-22 :21100 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/requirements.txt
+2022-10-26 16:36:47,149 INFO    Thread-25 :21100 [upload_job.py:push():143] Uploaded file /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/files/wandb-summary.json
+2022-10-26 16:36:47,355 INFO    Thread-12 (_thread_body):21100 [sender.py:transition_state():463] send defer: 9
+2022-10-26 16:36:47,356 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:47,357 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-26 16:36:47,357 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:47,357 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-26 16:36:47,358 INFO    SenderThread:21100 [file_pusher.py:join():173] waiting for file pusher
+2022-10-26 16:36:47,359 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 10
+2022-10-26 16:36:47,360 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:47,360 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-26 16:36:47,361 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:47,361 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-26 16:36:47,465 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 11
+2022-10-26 16:36:47,467 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:47,467 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-26 16:36:47,467 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:47,467 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-26 16:36:47,468 INFO    SenderThread:21100 [sender.py:transition_state():463] send defer: 12
+2022-10-26 16:36:47,472 DEBUG   SenderThread:21100 [sender.py:send():303] send: final
+2022-10-26 16:36:47,473 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: defer
+2022-10-26 16:36:47,473 DEBUG   SenderThread:21100 [sender.py:send():303] send: footer
+2022-10-26 16:36:47,473 INFO    HandlerThread:21100 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-26 16:36:47,474 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: defer
+2022-10-26 16:36:47,474 INFO    SenderThread:21100 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-26 16:36:47,479 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-26 16:36:47,479 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: server_info
+2022-10-26 16:36:47,479 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-26 16:36:47,480 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-26 16:36:47,481 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: poll_exit
+2022-10-26 16:36:47,481 DEBUG   SenderThread:21100 [sender.py:send_request():317] send_request: server_info
+2022-10-26 16:36:47,615 DEBUG   HandlerThread:21100 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-26 16:36:47,615 INFO    HandlerThread:21100 [handler.py:finish():814] shutting down handler
+2022-10-26 16:36:48,478 INFO    WriterThread:21100 [datastore.py:close():279] close: /Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw4/wandb/run-20221026_162411-1wbox41c/run-1wbox41c.wandb
+2022-10-26 16:36:48,617 INFO    SenderThread:21100 [sender.py:finish():1331] shutting down sender
+2022-10-26 16:36:48,617 INFO    SenderThread:21100 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-26 16:36:48,617 INFO    SenderThread:21100 [file_pusher.py:join():173] waiting for file pusher
+2022-10-26 16:36:49,620 INFO    MainThread:21100 [internal.py:handle_exit():78] Internal process exited

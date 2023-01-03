@@ -1,0 +1,21 @@
+Running deterministic tests: []
+All deterministic tests passed
+Running hoppl-deterministic tests: []
+All hoppl-deterministic tests passed
+Running probabilistic tests: []
+All probabilistic tests passed
+Running: homework_6: 2
+Inference method: IS
+Maximum samples [log10]: 5.0
+Maximum time [s]: 60
+Sample size: 36137
+Effective sample size: tensor(300.9337)
+Fractional sample size: tensor(0.0083)
+Sum of weights: tensor(1.0000, dtype=torch.float64)
+Samples shape: torch.Size([36137])
+First sample: tensor(6.2135)
+Sample mean: tensor(7.2932)
+Sample standard deviation: tensor(0.9387)
+Time taken [s]: 61.220821142196655
+Number of samples: 36137
+Finished program 2

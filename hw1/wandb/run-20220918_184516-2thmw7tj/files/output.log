@@ -1,0 +1,8 @@
+
+[2022-09-18 18:45:18,672][__main__][INFO] - #1 (enum and cond) : There is a 57.58% chance it is cloudy given the grass is wet
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 106, in my_app
+    if(torch.equal(sample, torch.tensor(1,0,0,1))):
+TypeError: tensor() takes 1 positional argument but 4 were given
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

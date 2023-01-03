@@ -1,0 +1,10 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 86, in my_app
+    wandb.log()
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 289, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/elvis/opt/anaconda3/envs/cpsc/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 255, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: log() missing 1 required positional argument: 'data'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

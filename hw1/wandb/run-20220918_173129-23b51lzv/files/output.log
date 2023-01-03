@@ -1,0 +1,6 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 88, in my_app
+    p_C_given_W = torch.tensor([p[0][:][:][1]/torch.sum(p[0][:][:][1], dim=0), p[1][:][:][1]/torch.sum(p[1][:][:][1], dim=0)])
+ValueError: only one element tensors can be converted to Python scalars
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

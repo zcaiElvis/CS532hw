@@ -1,0 +1,14 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/elvis/Desktop/School/2022/cpsc_536/hw1/hw1_q3.py", line 103, in my_app
+    log.info('#1 (enum and cond) : There is a {:.2f}% chance it is cloudy given the grass is wet'.format(p_C_given_W[100]*100))
+NameError: name 'p_C_given_W' is not defined
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2022-09-18 17:55:22,791][__main__][INFO] - {'result': tensor(0.0500)}
+[2022-09-18 17:55:22,792][__main__][INFO] - {'r1': tensor([[0.0010, 0.0090],
+        [0.0004, 0.0396]])}
+[2022-09-18 17:55:22,793][__main__][INFO] - {'r11': tensor(0.0396)}
+[2022-09-18 17:55:22,793][__main__][INFO] - {'r11': tensor(0.0090)}
+[2022-09-18 17:55:22,794][__main__][INFO] - {'r11': tensor(0.3240)}
+[2022-09-18 17:55:22,794][__main__][INFO] - {'r11': tensor(0.)}
+[2022-09-18 17:55:22,794][__main__][INFO] - {'r2': tensor([0.2745, 0.3726])}

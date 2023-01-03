@@ -1,0 +1,22 @@
+{
+    "os": "macOS-12.3.1-arm64-arm-64bit",
+    "python": "3.10.7",
+    "heartbeatAt": "2022-10-31T00:35:14.206863",
+    "startedAt": "2022-10-31T00:35:13.802319",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw5/run.py",
+    "codePath": "run.py",
+    "git": {
+        "remote": "git@github.com:zcaiElvis/CPSC532W_hw5.git",
+        "commit": "edb4df6c34a9770ad7b13d655e4b7c93923954d0"
+    },
+    "email": null,
+    "root": "/Users/elvis/Desktop/School/2022/cpsc_536/CPSC532W_hw5",
+    "host": "dhcp-128-189-217-254.ubcsecure.wireless.ubc.ca",
+    "username": "elvis",
+    "executable": "/usr/local/bin/python3"
+}

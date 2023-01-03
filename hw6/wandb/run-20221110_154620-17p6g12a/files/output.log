@@ -1,0 +1,223 @@
+Running deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+Test 13 starting
+Test 13 passed
+Test 14 starting
+Test 14 passed
+Test 15 starting
+Test 15 passed
+Test 16 starting
+Test 16 passed
+Test 17 starting
+Test 17 passed
+Test 18 starting
+Test 18 passed
+Test 19 starting
+Test 19 passed
+Test 20 starting
+Test 20 passed
+Test 21 starting
+Test 21 passed
+Test 22 starting
+Test 22 passed
+All deterministic tests passed
+Running hoppl-deterministic tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Test 1 starting
+Test 1 passed
+Test 2 starting
+Test 2 passed
+Test 3 starting
+Test 3 passed
+Test 4 starting
+Test 4 passed
+Test 5 starting
+Test 5 passed
+Test 6 starting
+Test 6 passed
+Test 7 starting
+Test 7 passed
+Test 8 starting
+Test 8 passed
+Test 9 starting
+Test 9 passed
+Test 10 starting
+Test 10 passed
+Test 11 starting
+Test 11 passed
+Test 12 starting
+Test 12 passed
+All hoppl-deterministic tests passed
+Running probabilistic tests: [1, 2, 3, 4, 5, 6, 7, 8]
+Test 1 starting
+Test truth: ('normal', 5, 1.4142136)
+Truth: ('normal', 5, 1.4142136)
+p value: 0.1649913998003234
+Test 1 passed
+Test 2 starting
+Test truth: ('beta', 2.0, 5.0)
+Truth: ('beta', 2.0, 5.0)
+p value: 0.5383120019605953
+Test 2 passed
+Test 3 starting
+Test truth: ('exponential', 0.0, 5.0)
+Truth: ('exponential', 0.0, 5.0)
+p value: 0.748426579797635
+Test 3 passed
+Test 4 starting
+Test truth: ('normal', 5.3, 3.2)
+Truth: ('normal', 5.3, 3.2)
+p value: 0.21851393215670467
+Test 4 passed
+Test 5 starting
+Test truth: ('normalmix', 0.1, -1, 0.3, 0.9, 1, 0.3)
+Truth: ('normalmix', 0.1, -1, 0.3, 0.9, 1, 0.3)
+p value: 0.3478830748685928
+Test 5 passed
+Test 6 starting
+Test truth: ('normal', 0, 1.44)
+Truth: ('normal', 0, 1.44)
+p value: 0.7744265601631534
+Test 6 passed
+Test 7 starting
+Test truth: ('normal', 0, 1.4142136)
+Truth: ('normal', 0, 1.4142136)
+p value: 0.357923481851372
+Test 7 passed
+Test 8 starting
+Test truth: ('normal', 0, 1)
+Truth: ('normal', 0, 1)
+p value: 0.2921421288904611
+Test 8 passed
+All probabilistic tests passed
+Running: homework_6: 1
+Inference method: SMC
+Maximum samples [log10]: 3.0
+Maximum time [s]: 60
+Samples shape: torch.Size([1000])
+First sample: tensor(10.)
+Sample mean: tensor(103.2270)
+Sample standard deviation: tensor(100.0491)
+Time taken [s]: 7.080650091171265
+Number of samples: 1000
+Finished program 1
+Running: homework_6: 2
+Inference method: SMC
+Maximum samples [log10]: 3.0
+Maximum time [s]: 60
+Sample size: 1000
+Effective sample size: tensor(38.8736)
+Fractional sample size: tensor(0.0389)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(369.2361)
+Fractional sample size: tensor(0.3692)
+Sum of weights: tensor(1.0000, dtype=torch.float64)
+Samples shape: torch.Size([1000])
+First sample: tensor(7.6682)
+Sample mean: tensor(7.6839)
+Sample standard deviation: tensor(1.1418)
+Time taken [s]: 0.8172078132629395
+Number of samples: 1000
+Finished program 2
+Running: homework_6: 3
+Inference method: SMC
+Maximum samples [log10]: 3.0
+Maximum time [s]: 60
+Sample size: 1000
+Effective sample size: tensor(883.0567)
+Fractional sample size: tensor(0.8831)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(890.7465)
+Fractional sample size: tensor(0.8907)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(915.9381)
+Fractional sample size: tensor(0.9159)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(954.9659)
+Fractional sample size: tensor(0.9550)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(955.9908)
+Fractional sample size: tensor(0.9560)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(166.1329)
+Fractional sample size: tensor(0.1661)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(344.4246)
+Fractional sample size: tensor(0.3444)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(938.6919)
+Fractional sample size: tensor(0.9387)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(953.7275)
+Fractional sample size: tensor(0.9537)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(956.8924)
+Fractional sample size: tensor(0.9569)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(942.2770)
+Fractional sample size: tensor(0.9423)
+Sum of weights: tensor(1.0000, dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(198.2328)
+Fractional sample size: tensor(0.1982)
+Sum of weights: tensor(1.0000, dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(946.6110)
+Fractional sample size: tensor(0.9466)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(954.8715)
+Fractional sample size: tensor(0.9549)
+Sum of weights: tensor(1., dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(843.9456)
+Fractional sample size: tensor(0.8439)
+Sum of weights: tensor(1.0000, dtype=torch.float64)
+Sample size: 1000
+Effective sample size: tensor(802.2791)
+Fractional sample size: tensor(0.8023)
+Sum of weights: tensor(1., dtype=torch.float64)
+Samples shape: torch.Size([1000, 17])
+First sample: tensor([2., 2., 1., 2., 1., 2., 2., 2., 0., 0., 0., 2., 2., 2., 2., 1., 1.])
+Sample mean: tensor([1.4590, 1.5260, 1.6990, 1.5480, 1.0170, 1.3640, 1.7170, 1.6290, 1.5590,
+        1.0680, 0.0300, 1.6390, 1.7270, 1.5580, 1.6750, 1.3910, 0.8910])
+Sample standard deviation: tensor([0.8480, 0.8270, 0.5768, 0.7377, 0.1293, 0.7988, 0.5322, 0.6601, 0.6730,
+        0.9728, 0.2432, 0.6396, 0.6122, 0.6626, 0.5231, 0.5937, 0.8543])
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Visualizing heatmap.
+Time taken [s]: 6.880756139755249
+Number of samples: 1000
+Finished program 3
